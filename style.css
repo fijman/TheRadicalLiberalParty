@@ -36,7 +36,7 @@ body{
     
 }
 
-.Container2{
+#Container2{
     align-items: center;
     background-color: #e4e4e4;
     width: 1920px;
@@ -251,7 +251,7 @@ pre{
         zoom: 30%;
     }
   
-    .Container2{
+    #Container2{
         zoom: 30%;
     }
 
