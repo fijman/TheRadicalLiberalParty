@@ -248,3 +248,80 @@ pre{
     text-align: center;
     margin-right: 50px;
 }
+@media (max-width: 700px) {
+
+
+    button {
+        font-size: 10px;
+        width: 90px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #but1{
+        margin: 50px 25px;
+     }
+    
+     #but2{
+        margin: 50px 100px;
+     }
+     #but3{
+        margin: 50px 190px;
+     }
+     #but4{
+        margin: 50px 280px;
+     }
+     #but5{
+        margin: 50px 370px;
+     }
+
+    .Container3{
+        zoom: 30%;
+    }
+
+   .Container4 {
+    zoom: 30%;
+    }
+    .Container2{
+        zoom: 30%;
+    }
+
+
+    
+    .Container3{
+        zoom: 30%;
+    }
+
+   .Container4 {
+    zoom: 30%;
+   }
+
+   .Container5 {
+    zoom: 30%;
+   }
+   .Container6 {
+    zoom: 30%;
+   }
+   .Container7 {
+    zoom: 30%;
+   }
+   .Container8 {
+    zoom: 30%;
+   }
+   .Container9 {
+    zoom: 30%;
+   }
+   .Container10 {
+    zoom: 30%;
+   }
+   .Container11 {
+    zoom: 30%;
+   }
+   
+
+    #img1{
+        width: 100px;
+        height: 100px;
+        margin-top: 25px ;
+    }
+}
