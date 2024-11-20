@@ -11,13 +11,20 @@ body{
     zoom: 70%;
 }
 
+.Container0
+{
+margin-left: 400px;
+z-index: 10;
+zoom: 112%;
+}
 
 .Container{
+    transform: scale(1);
     background-color: #3d3d3d;
     width: 1920px;
     height: 1177px;
     border-radius: 10px;
-    margin-top: 150px;
+    margin-top: 10px;
    box-shadow: 0px 0px 30px #000000;
 
     
@@ -27,10 +34,10 @@ body{
     top: 0px;
     left: 0px;
     position: fixed;
-    background-color: #111111e8;
-    width: 100%;
-    height: 150px;
-    border-radius: 10px;
+    background-color: #292929;
+    width: 400px;
+    height: 100%;
+    zoom: 110%;
     z-index: 10;
     
     
@@ -69,10 +76,11 @@ body{
 
 #img1 {
     top: auto;
-    margin-right: 5px;
-    margin-left: 80%;
-    width: 150px;
-    height: 150px;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 30px;
 }
 
 #img2 {
@@ -184,42 +192,54 @@ pre{
 
 
 
- button {
+    .button1 {
     color: #c0c0c0;
     font-size: 25px;
     width: 255px;
     height: 50px;
-    position: absolute;
-    align-items: center;
+    text-align: left;
     border-radius: 10px;
-    font-weight: bolder;
+    font-weight: normal;
+    border: none;
+    background: none; 
+    margin-left: 50px;
+    margin-top: 10px;
+    cursor: pointer; /* Курсор в виде указателя */
+
+ }
+
+ .button2 {
+    margin-top: 200px;
+    color: #c0c0c0;
+    font-size: 25px;
+    width: 255px;
+    margin-left: 50px;
+    text-align: left;
+    border-radius: 10px;
+    font-weight: normal;
     border: none;
     background: none;
+    cursor: pointer; /* Курсор в виде указателя */
     
  }
 
- button:hover{
-    
+ .button1:hover{
+   
+    text-shadow: 0px 0px 3px #ffffff;
+    color: #ffffff;
+ }
+ .button2:hover{
+   
     text-shadow: 0px 0px 3px #ffffff;
     color: #ffffff;
  }
 
- #but1{
-    margin: 50px 500px;
+ #but6{
+     font-weight: normal;
+    margin-left: 20px;
+    margin-bottom: 10px;
  }
 
- #but2{
-    margin: 50px 755px;
- }
- #but3{
-    margin: 50px 1010px;
- }
- #but4{
-    margin: 50px 1265px;
- }
- #but5{
-    margin: 50px 1520px;
- }
 @media (max-width: 700px) {
 
 
@@ -246,6 +266,7 @@ pre{
      #but5{
         margin: 50px 380px;
      }
+
 
      .Container{
         zoom: 30%;
