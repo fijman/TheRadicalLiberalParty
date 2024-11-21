@@ -74,6 +74,16 @@ zoom: 112%;
     box-shadow: 0px 0px 30px #000000;
 }
 
+#h3 {
+    font-family: Bahnschrift;
+    font-size: 40px;
+    color: rgb(240, 240, 240);
+    font-weight: initial;
+    z-index: 4;
+    margin-left: 10px;
+    text-align: center;
+}
+
 #img1 {
     top: auto;
     align-items: center;
@@ -195,7 +205,7 @@ pre{
     .button1 {
     color: #c0c0c0;
     font-size: 25px;
-    width: 255px;
+    width: 350px;
     height: 50px;
     text-align: left;
     border-radius: 10px;
@@ -203,19 +213,20 @@ pre{
     border: none;
     background: none; 
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 7px;
     cursor: pointer; /* Курсор в виде указателя */
-
+    letter-spacing: 1px;
  }
 
  .button2 {
-    margin-top: 200px;
+    width: 300px;
+    letter-spacing: 1px;
+    margin-top: 100px;
     color: #c0c0c0;
     font-size: 25px;
-    width: 255px;
     margin-left: 50px;
     text-align: left;
-    border-radius: 10px;
+    border-radius: 7px;
     font-weight: normal;
     border: none;
     background: none;

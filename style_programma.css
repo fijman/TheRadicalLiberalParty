@@ -1,0 +1,83 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    zoom: 70%;
+}
+
+#img1 {
+    top: auto;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#h3 {
+    font-family: Bahnschrift;
+    font-size: 40px;
+    color: rgb(240, 240, 240);
+    font-weight: initial;
+    z-index: 4;
+    margin-left: 10px;
+    text-align: center;
+}
+.button1 {
+    color: #c0c0c0;
+    font-size: 25px;
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    border-radius: 10px;
+    font-weight: normal;
+    border: none;
+    background: none; 
+    margin-left: 50px;
+    margin-top: 7px;
+    cursor: pointer; /* Курсор в виде указателя */
+    letter-spacing: 1px;
+ }
+
+ .button2 {
+    width: 300px;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    color: #c0c0c0;
+    font-size: 25px;
+    margin-left: 50px;
+    text-align: left;
+    border-radius: 7px;
+    font-weight: normal;
+    border: none;
+    background: none;
+    cursor: pointer; /* Курсор в виде указателя */
+    
+ }
+
+ .button1:hover{
+   
+    text-shadow: 0px 0px 3px #ffffff;
+    color: #ffffff;
+ }
+ .button2:hover{
+   
+    text-shadow: 0px 0px 3px #ffffff;
+    color: #ffffff;
+
+ }
+.Container1{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: #292929;
+    width: 400px;
+    height: 100%;
+    zoom: 110%;
+    z-index: 10;
+    
+    
+}
