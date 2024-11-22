@@ -1,6 +1,9 @@
 html {  
     scroll-behavior: smooth;  
 }
+*{
+    margin: 0 0 0 0;
+}
 
 body{
     font-family: Arial, sans-serif;
@@ -8,24 +11,26 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    zoom: 70%;
+    margin:0;
 }
 
 .Container0
 {
-margin-left: 400px;
-z-index: 10;
-zoom: 112%;
+width: 100%;
+margin-left: 18vw;
+z-index: 8;
+height: 100%;
+
+
 }
 
 .Container{
-    transform: scale(1);
+    display: flex;
+    float: top;
     background-color: #3d3d3d;
-    width: 1920px;
-    height: 1177px;
-    border-radius: 10px;
-    margin-top: 10px;
-   box-shadow: 0px 0px 30px #000000;
+    width: 100%; 
+    min-height: 100vh;
+    box-shadow: 0px 0px 30px #000000;
 
     
 }
@@ -35,43 +40,30 @@ zoom: 112%;
     left: 0px;
     position: fixed;
     background-color: #292929;
-    width: 400px;
-    height: 100%;
-    zoom: 110%;
+    width: 18vw;
+    height: 100vh;
     z-index: 10;
+    box-shadow: 0px 0px 30px #070707;
     
     
 }
 
-#Container2{
+.Container2{
     align-items: center;
     background-color: #e4e4e4;
-    width: 1920px;
-    height: 1177px;
-    border-radius: 10px;
-    margin-top: 15px;
+    width: 100%; 
+    height: 100vh;
+    margin:0;
     box-shadow: 0px 0px 30px #000000;
     
 }
 
-.Container3{
-    align-items: center;
-    background-color: #e4e4e4;
-    width: 1920px;
-    height: 1177px;
-    border-radius: 10px;
-    margin-top: 15px;
-    box-shadow: 0px 0px 30px #000000;
-}
 
-.Container4{
-    align-items: center;
-    background-color: #e4e4e4;
-    width: 1920px;
-    height: 1177px;
-    border-radius: 10px;
-    margin-top: 15px;
-    box-shadow: 0px 0px 30px #000000;
+
+#p1{
+    color: #000;
+    margin-left: 10%;
+    margin-top: 50%;
 }
 
 #h3 {
@@ -96,15 +88,15 @@ zoom: 112%;
 #img2 {
     
     align-items: center;
-    border-radius: 10px;
     width: 100%;
+    height: 100%;
     
 }
 #img3{
     
     border-radius: 0px 10px 10px 0px ;
-    height: 1177px;
-    margin-left: 340px;
+    height: 100%;
+    float: right;
     z-index: 2;
 
 }
@@ -135,13 +127,22 @@ zoom: 112%;
     margin-left: 100px;
 
 }
-
+#box1 {
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+    opacity: 100%;
+    z-index: 2;
+    opacity: 50%;
+  
+}
 #box2{
     background-color: #ffffff;
     position: absolute;
     border-radius:  10px 10px 0px 0px;
-    width: 1920px;
-    height: 150px;
+    width: 100vw;
+    height: 20vh;
     box-shadow: 0px 0px 10px #000000;
     z-index: 3;
 }
@@ -150,8 +151,9 @@ zoom: 112%;
     background-color: #ffffff;
     position: absolute;
     border-radius:  10px 10px 0px 0px;
-    width: 1920px;
-    height: 150px;
+    width: 100vw;
+    height: 20vh;
+    
     box-shadow: 0px 0px 10px #000000;
     z-index: 3;
 }
@@ -167,53 +169,41 @@ h2 {
 }
 
 pre{
-    text-align: center;
-    margin-top: 500px;
-    margin-left: 200px;
+    margin-top: 50vh;
+    margin-left: 17vw;
     position: absolute;
-    font-size: 50px;
+    font-size: 38px;
     color: #ffffff;
     z-index: 4;
     opacity: 80%;
     text-shadow: 0px 0px 10px #000000;
 }
-#box1 {
-    position: absolute;
-    border-radius: 10px;
-    background-color: #000000;
-    width: 1920px;
-    height: 1177px;
-    opacity: 100%;
-    z-index: 2;
-    opacity: 50%;
-  
-}
+
 
 #h1{
-    font-size: 110px;
+    font-size: 90px;
     position: unset;
-    margin-top: 10px;
     position: absolute;
     z-index: 3;
-    margin-top: 300px;
-    margin-left: 300px;
+    margin-top: 35vh;
+    margin-left: 15vw;
     text-shadow: 0px 0px 10px #000000;
 }
 
 
 
     .button1 {
-    color: #c0c0c0;
-    font-size: 25px;
-    width: 350px;
-    height: 50px;
+    color: #c0c0c0;;
+    font-size: 18px;
+    width: 280px;
+    
     text-align: left;
     border-radius: 10px;
     font-weight: normal;
     border: none;
     background: none; 
     margin-left: 50px;
-    margin-top: 7px;
+    margin-top: 15px;
     cursor: pointer; /* Курсор в виде указателя */
     letter-spacing: 1px;
  }
@@ -221,12 +211,12 @@ pre{
  .button2 {
     width: 300px;
     letter-spacing: 1px;
-    margin-top: 100px;
+    margin-top: 150px;
     color: #c0c0c0;
-    font-size: 25px;
+    font-size: 18px;
     margin-left: 50px;
     text-align: left;
-    border-radius: 7px;
+    border-radius: 115px;
     font-weight: normal;
     border: none;
     background: none;
@@ -250,78 +240,3 @@ pre{
     margin-left: 20px;
     margin-bottom: 10px;
  }
-
-@media (max-width: 700px) {
-
-
-    button {
-        font-size: 10px;
-        width: 90px;
-        height: 50px;
-        position: absolute;
-    }
-
-    #but1{
-        margin: 50px 25px;
-     }
-    
-     #but2{
-        margin: 50px 100px;
-     }
-     #but3{
-        margin: 50px 200px;
-     }
-     #but4{
-        margin: 50px 300px;
-     }
-     #but5{
-        margin: 50px 380px;
-     }
-
-
-     .Container{
-        zoom: 30%;
-    }
-  
-    #Container2{
-        zoom: 30%;
-    }
-
-    
-    .Container3{
-        zoom: 30%;
-    }
-
-   .Container4 {
-    zoom: 30%;
-   }
-
-   .Container5 {
-    zoom: 30%;
-   }
-   .Container6 {
-    zoom: 30%;
-   }
-   .Container7 {
-    zoom: 30%;
-   }
-   .Container8 {
-    zoom: 30%;
-   }
-   .Container9 {
-    zoom: 30%;
-   }
-   .Container10 {
-    zoom: 30%;
-   }
-   .Container11 {
-    zoom: 30%;
-   }
-   
-
-    #img1{
-        width: 100px;
-        height: 100px;
-        margin-top: 25px ;
-    }
-}

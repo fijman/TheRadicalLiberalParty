@@ -20,9 +20,9 @@
       <h3 id="h3">The <span style="color: rgb(255, 157, 29);">Radical-Liberal Party</span> </h3>
       <details   class="button2" >
         <summary >Главная страница</summary>
-     <button class="button1" id = "but2" onclick="window.scroll(0,935)">Цели партии</button>
+     <button class="button1" id = "but2" onclick="location  ='#Container2'">Цели партии</button>
 
-      <button class="button1" id = "but3" onclick="window.scroll(0,1870);">Состав партии</button>
+      <button class="button1" id = "but3" onclick="location ='#Container3'">Состав партии</button>
       </details>
       <button class="button1" id = "but4" onclick="location.href ='News.html'">Новости партии</button>
       <button class="button1" id = "but4" onclick="location.href ='Programma.html'">Политическая программа</button>
@@ -34,7 +34,7 @@
  
     </div>
 <div class="Container0" >  
-    <div class="Container" id ="container"> 
+    <div class="Container2" id ="container"> 
         
         <h1 id="h1">The <span style="color: rgb(255, 157, 29);">Radical-Liberal Party</span> </h1>
         <pre>Это партия, приоритетами которой являются
@@ -44,17 +44,17 @@
        
     </div>
 
-    <div  id ="Container2"> 
+    <div class ="Container2" id ="Container2"> 
         <img src="Programma.png" id="img7">
     </div>
-    <div class="Container3" id ="Container3"> 
+    <div class="Container2" id ="Container3"> 
         <box id="box2"></box>
         <h2>Основатель и Председатель <The style="color: rgb(255, 157, 29);">The Radical-Liberal Party</span> </h2>
         <img src="ONem.png" id = "img4">
         <img src="walter.png" id = "img3">
         
     </div>
-    <div class="Container4" id ="Container4"> 
+    <div class="Container2" id ="Container4"> 
         <box id="box3"></box>
         <h2>Вице-Председатель <The style="color: rgb(255, 157, 29);">The Radical-Liberal Party</span> </h2>
         <img src="Lord.png" id = "img5">
@@ -64,7 +64,7 @@
 
 
     <script>
-     gsap.registerPlugin(ScrollTrigger);
+      gsap.registerPlugin(ScrollTrigger);
 
 // Анимация контейнера при прокрутке
 gsap.fromTo("#container", 
@@ -74,11 +74,11 @@ gsap.fromTo("#container",
         opacity: 0, // Конечное значение
         scrollTrigger: {
             trigger: "#Container2",
-            start: "top 92%", // Начало анимации
-            end: "top 5%", // Конец анимации
+            start: "top 91%", // Начало анимации
+            end: "top 20%", // Конец анимации
             scrub: true, // Анимация будет следовать за прокруткой
         },
-        duration: 1 // Длительность анимации
+        duration: 0.5 // Длительность анимации
     }
 );
 gsap.fromTo("#Container2", 
@@ -88,11 +88,11 @@ gsap.fromTo("#Container2",
         opacity: 0, // Конечное значение
         scrollTrigger: {
             trigger: "#Container3",
-            start: "top 88%", // Начало анимации
-            end: "top 5%", // Конец анимации
+            start: "top 91%", // Начало анимации
+            end: "top 20%", // Конец анимации
             scrub: true, // Анимация будет следовать за прокруткой
         },
-        duration: 1 // Длительность анимации
+        duration: 0.5 // Длительность анимации
     }
 );
 gsap.fromTo("#Container3", 
@@ -102,8 +102,8 @@ gsap.fromTo("#Container3",
         opacity: 0, // Конечное значение
         scrollTrigger: {
             trigger: "#Container4",
-            start: "top 92%", // Начало анимации
-            end: "top 5%", // Конец анимации
+            start: "top 91%", // Начало анимации
+            end: "top 20%", // Конец анимации
             scrub: true, // Анимация будет следовать за прокруткой
         },
         duration: 0.5 // Длительность анимации
