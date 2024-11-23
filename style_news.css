@@ -41,7 +41,6 @@ body{
     color: #c0c0c0;;
     font-size: 18px;
     width: 280px;
-    
     text-align: left;
     border-radius: 10px;
     font-weight: normal;
@@ -56,6 +55,11 @@ body{
 #but1{
     text-shadow: 0px 0px 3px #ffffff;
     color: #ffffff; 
+    
+}
+#but2{
+    
+    margin-top: 150px;
 }
 
 
@@ -108,4 +112,13 @@ height: 100%;
 
 #img2 {
     height: 100%;
+}
+
+h1{
+    font-size: 120px;
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 20vw;
+    align-items: center;
+    color: rgb(255, 157, 29);
 }

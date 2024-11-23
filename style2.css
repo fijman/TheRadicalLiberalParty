@@ -5,7 +5,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    zoom: 70%;
+    
+}
+
+*{
+    margin: 0 0 0 0;
+}
+
+.element {
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow: -moz-scrollbars-none;
+}
+
+.element::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 #h3 {
@@ -18,60 +39,79 @@ body{
     text-align: center;
 }
 .button1 {
-    color: #c0c0c0;
-    font-size: 25px;
-    width: 350px;
-    height: 50px;
+    color: #c0c0c0;;
+    font-size: 18px;
+    width: 280px;
     text-align: left;
     border-radius: 10px;
     font-weight: normal;
     border: none;
     background: none; 
     margin-left: 50px;
-    margin-top: 7px;
+    margin-top: 15px;
     cursor: pointer; /* Курсор в виде указателя */
     letter-spacing: 1px;
  }
-
- .button2 {
-    width: 300px;
-    letter-spacing: 1px;
-    margin-top: 100px;
-    color: #c0c0c0;
-    font-size: 25px;
-    margin-left: 50px;
-    text-align: left;
-    border-radius: 7px;
-    font-weight: normal;
-    border: none;
-    background: none;
-    cursor: pointer; /* Курсор в виде указателя */
+ 
+#but1{
+    text-shadow: 0px 0px 3px #ffffff;
+    color: #ffffff; 
     
- }
+}
+#but2{
+    
+    margin-top: 150px;
+}
+
 
  .button1:hover{
    
     text-shadow: 0px 0px 3px #ffffff;
     color: #ffffff;
  }
- .button2:hover{
-   
-    text-shadow: 0px 0px 3px #ffffff;
-    color: #ffffff;
-
- }
-.Container1{
+ 
+ .Container1{
     top: 0px;
     left: 0px;
     position: fixed;
     background-color: #292929;
-    width: 400px;
-    height: 100%;
-    zoom: 110%;
+    width: 18vw;
+    height: 100vh;
     z-index: 10;
+    box-shadow: 0px 0px 30px #070707;
     
     
 }
+
+#img1 {
+    top: auto;
+    align-items: center;
+    width: 25vh;
+    height: 25vh;
+    margin-left: 3vw;
+    margin-top: 5vh;
+}
+
+.Container2{
+    align-items: center;
+    background-color: #dddddd;
+    width: 100%; 
+    height: 102vh;
+    margin:0;
+    box-shadow: 0px 0px 30px #000000;
+    
+}
+.Container0
+{
+width: 100%;
+margin-left: 40vw;
+z-index: 8;
+height: 100%;
+zoom: 70%;
+
+
+}
+
 
 .Container3{
     background-color: #3d3d3d;
@@ -198,10 +238,10 @@ h1 {
 #img1 {
     top: auto;
     align-items: center;
-    width: 300px;
-    height: 300px;
-    margin-left: 40px;
-    margin-top: 30px;
+    width: 25vh;
+    height: 25vh;
+    margin-left: 3vw;
+    margin-top: 5vh;
 }
 
 #img2{

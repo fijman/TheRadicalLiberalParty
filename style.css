@@ -206,7 +206,7 @@ h2 {
     position: absolute;
     font-size: 25px;
     color: rgb(24, 24, 24);
-    margin-left: 8vw;
+    margin-left: 20vw;
     margin-top: 73vh;
     z-index: 4;
     
@@ -214,7 +214,7 @@ h2 {
 
 .h3{
     font-weight: bold;
-    margin-left: 25vw;
+    margin-left: 40vw;
     margin-top: 65vh;
     color: rgb(255, 157, 29);
 }
@@ -286,6 +286,13 @@ h2 {
     margin-left: 20px;
     margin-bottom: 10px;
  }
+
+ #but7{
+   
+    text-shadow: 0px 0px 3px #ffffff;
+    color: #ffffff;
+ }
+
  .Pas{
   position: absolute;
   height: 20vh;
@@ -296,3 +303,4 @@ h2 {
   z-index: 9;
   opacity: 0%;
  }
+
