@@ -201,6 +201,23 @@ h2 {
     
 }
 
+.pre3 {
+    font-family: Bahnschrift;
+    position: absolute;
+    font-size: 25px;
+    color: rgb(24, 24, 24);
+    margin-left: 8vw;
+    margin-top: 73vh;
+    z-index: 4;
+    
+}
+
+.h3{
+    font-weight: bold;
+    margin-left: 25vw;
+    margin-top: 65vh;
+    color: rgb(255, 157, 29);
+}
 
 .h2{
     font-weight: bold;
