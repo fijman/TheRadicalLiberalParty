@@ -123,3 +123,112 @@ h1{
     color: rgb(255, 157, 29);
 }
 
+.Container_1{
+    
+    visibility: hidden;
+    
+    
+}
+
+    @media (max-width: 600px) {
+    
+   
+        .button1{
+            margin-left: 25px;
+            width: 200px;
+        }
+        .button2{
+            margin-left: 25px;
+            width: 200px;
+        }
+    
+        h1{
+            font-size: 70px;
+        }
+        #pre1{
+            opacity: 0;
+        }  
+        #img2 {
+            height: 100%;
+            background-size: contain
+            
+        }
+
+        .Container_1{
+            top: 0px;
+            left: 0px;
+            position: fixed;
+            background-color: #292929;
+            width: 100vw;
+            height: 10vh;
+            z-index: 10;
+            box-shadow: 0px 0px 30px #070707;
+            visibility: visible;
+            
+            
+        }
+        .Container1{
+            
+            visibility: hidden;
+            
+        }  
+        
+        .Container0{
+            width: 100%;
+            margin-left: 0vw;
+            z-index: 8;
+            height: 100%;
+            
+        } 
+
+        .Container_3{
+            top: 0px;
+            left: 0px;
+            background-color: #292929;
+            width: 250px;
+            height: 35vh;
+            z-index: 10;
+            box-shadow: 0px 0px 30px #070707;
+            visibility: visible;
+            border-radius: 15px;
+            
+            
+        }
+
+        .Container_2{
+            margin-top: 5vh;
+            margin-left: 10vw;
+
+            
+        }
+        
+        #img7{
+           margin-top: 10vh;
+            width: 140vw;
+            height: auto;
+            margin-left: -20vw;
+            background-size: contain 
+        
+        }
+
+        summary {
+            list-style-type: none; /* Firefox */
+          }
+
+          pre{
+            visibility: hidden;
+          }
+          .h3{
+            visibility: hidden;
+          }
+          .h2{
+            visibility: hidden;
+          }
+
+          h2{
+            font-size: 15px;
+            margin-top: 2vh;
+            margin-left: 5vw;
+          }
+        
+    }

@@ -303,11 +303,13 @@ h2 {
   z-index: 9;
   opacity: 0%;
  }
-
  .Container_1{
     position: fixed;
-    visibility: hidden;
- }
+    visibility:hidden;
+    
+    
+}
+
 
  @media (max-width: 800px) {
     .Container_but{
@@ -328,6 +330,7 @@ h2 {
         background-size: contain
     }
 }
+
 
 @media (max-width: 1300px) {
     .Container_but{
@@ -381,6 +384,9 @@ h2 {
         background-size: contain
     }
 }
+
+
+
 
     @media (max-width: 600px) {
     
