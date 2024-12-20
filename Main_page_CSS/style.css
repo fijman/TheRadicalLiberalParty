@@ -225,18 +225,6 @@ h2 {
     letter-spacing: 1px;
  }
 
-
- .button1:hover{
-   
-    text-shadow: 0px 0px 3px #ffffff;
-    color: #ffffff;
- }
- .button2:hover{
-   
-    text-shadow: 0px 0px 3px #ffffff;
-    color: #ffffff;
- }
- 
  .Pas{
   position: absolute;
   height: 20vh;
