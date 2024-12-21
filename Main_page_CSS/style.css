@@ -7,19 +7,6 @@ html {
     margin: 0 0 0 0;
 }
 
-.element {
-    overflow: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    overflow: -moz-scrollbars-none;
-}
-
-.element::-webkit-scrollbar { 
-    width: 0;
-    height: 0;
-    display: none;
-}
-
 ::-webkit-scrollbar {
     display: none;
 }
@@ -107,6 +94,12 @@ scroll-behavior: smooth;
     height: 100%;
     
 
+}
+
+#img10{
+    height: 100%;
+    width: 100%;
+    
 }
 
 #img7{

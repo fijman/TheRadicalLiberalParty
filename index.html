@@ -38,14 +38,13 @@
 
       <details   class="button2" id = "but7">
         <summary >Главная страница</summary>
-     <button class="button2" id = "but2" onclick="location  ='#Container2'">Цели партии</button>
-
+     <button class="button1" id = "but2" onclick="location  ='#Container2'">Цели партии</button>
       <button class="button1" id = "but3" onclick="location ='#Container3'">Руководство партии</button>
       </details>
 
-      <button class="button1" id = "but4" onclick="location.href ='/News/News.html'">Новости партии</button>
-      <button class="button1" id = "but4" onclick="location.href ='/Polit_Programm/Programma.html'">Политическая программа</button>
-      <button class="button1" id = "but4" onclick="location.href ='/Regulation/Regulation.html'">Устав партии</button>
+      <button class="button1" id = "but4" onclick="location.href ='News/News.html'">Новости партии</button>
+      <button class="button1" id = "but4" onclick="location.href ='Polit_Programm/Programma.html'">Политическая программа</button>
+      <button class="button1" id = "but4" onclick="location.href ='Regulation/Regulation.html'">Устав партии</button>
       <button class="button1" id = "but1" onclick="window.location='https://fijman.github.io/TheRadicalLiberalPartyBot/'">Вступить в партию</button>
       <button class="button1" id = "but5" onclick="window.location='https://discord.gg/xcQKUX87UC'">Discord партии</button>
       </details>
@@ -66,7 +65,7 @@
        
     </div>
 
-    <div class ="Container2" id ="Container2"> 
+   <!-- <div class ="Container2" id ="Container2"> 
         <img src="Programma.png" id="img7">
     </div>
     <div class="Container2" id ="Container3"> 
@@ -96,10 +95,17 @@
             
                 </pre>
         <img src="Lord.png" id = "img6">
+    </div> -->
+
+    <div class="Container2" id ="Container6"> 
+        <img src="Без имени-3.png" id = "img10">
     </div>
+
+    <div class="Container2" id ="Container5"> 
+        <img src="Без имени-1.png" id = "img10">
+    </div>
+  
  </div>
-
-
     <script>
       gsap.registerPlugin(ScrollTrigger);
 
@@ -110,14 +116,14 @@ gsap.fromTo("#container",
         scale: 0.8, // Конечное значение
         opacity: 0, // Конечное значение
         scrollTrigger: {
-            trigger: "#Container2",
+            trigger: "#Container6",
             start: "top 91%", // Начало анимации
             end: "top 20%", // Конец анимации
             scrub: true, // Анимация будет следовать за прокруткой
         },
         duration: 0.5 // Длительность анимации
     }
-);
+);/* 
 gsap.fromTo("#Container2", 
     { scale: 1, opacity: 1 }, // Начальные значения
     {
@@ -139,6 +145,35 @@ gsap.fromTo("#Container3",
         opacity: 0, // Конечное значение
         scrollTrigger: {
             trigger: "#Container4",
+            start: "top 88%", // Начало анимации
+            end: "top 20%", // Конец анимации
+            scrub: true, // Анимация будет следовать за прокруткой
+        },
+        duration: 0.5 // Длительность анимации
+    }
+); 
+    gsap.fromTo("#Container4", 
+    { scale: 1, opacity: 1 }, // Начальные значения
+    {
+        scale: 0.8, // Конечное значение
+        opacity: 0, // Конечное значение
+        scrollTrigger: {
+            trigger: "#Container5",
+            start: "top 88%", // Начало анимации
+            end: "top 20%", // Конец анимации
+            scrub: true, // Анимация будет следовать за прокруткой
+        },
+        duration: 0.5 // Длительность анимации
+    }
+);*/
+
+gsap.fromTo("#Container6", 
+    { scale: 1, opacity: 1 }, // Начальные значения
+    {
+        scale: 0.8, // Конечное значение
+        opacity: 0, // Конечное значение
+        scrollTrigger: {
+            trigger: "#Container5",
             start: "top 88%", // Начало анимации
             end: "top 20%", // Конец анимации
             scrub: true, // Анимация будет следовать за прокруткой
