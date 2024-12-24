@@ -29,64 +29,6 @@ body{
     display: none;
 }
 
-#h3 {
-    font-family: Bahnschrift;
-    font-size: 40px;
-    color: rgb(240, 240, 240);
-    font-weight: initial;
-    z-index: 4;
-    margin-left: 10px;
-    text-align: center;
-}
-.button1 {
-    color: #c0c0c0;;
-    font-size: 18px;
-    width: 280px;
-    text-align: left;
-    border-radius: 10px;
-    font-weight: normal;
-    border: none;
-    background: none; 
-    margin-left: 50px;
-    margin-top: 15px;
-    cursor: pointer; /* Курсор в виде указателя */
-    letter-spacing: 1px;
- }
- 
-#but1{
-    text-shadow: 0px 0px 3px #ffffff;
-    color: #ffffff; 
-    
-}
-
-
- .button1:hover{
-   
-    text-shadow: 0px 0px 3px #ffffff;
-    color: #ffffff;
- }
- 
- .Container1{
-    top: 0px;
-    left: 0px;
-    position: fixed;
-    background-color: #292929;
-    width: 18vw;
-    height: 100vh;
-    z-index: 10;
-    box-shadow: 0px 0px 30px #070707;
-    
-    
-}
-
-#img1 {
-    top: auto;
-    align-items: center;
-    width: 25vh;
-    height: 25vh;
-    margin-left: 3vw;
-    margin-top: 5vh;
-}
 
 .Container2{
     align-items: center;
